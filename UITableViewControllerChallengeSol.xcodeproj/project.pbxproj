@@ -14,13 +14,13 @@
 		BE136B8A199BDC68007B5569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE136B89199BDC68007B5569 /* main.m */; };
 		BE136B8E199BDC68007B5569 /* MAKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE136B8D199BDC68007B5569 /* MAKAppDelegate.m */; };
 		BE136B91199BDC69007B5569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE136B8F199BDC69007B5569 /* Main.storyboard */; };
-		BE136B94199BDC69007B5569 /* MAKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE136B93199BDC69007B5569 /* MAKViewController.m */; };
 		BE136B96199BDC69007B5569 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE136B95199BDC69007B5569 /* Images.xcassets */; };
 		BE136B9D199BDC69007B5569 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE136B9C199BDC69007B5569 /* XCTest.framework */; };
 		BE136B9E199BDC69007B5569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE136B7D199BDC68007B5569 /* Foundation.framework */; };
 		BE136B9F199BDC69007B5569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE136B81199BDC68007B5569 /* UIKit.framework */; };
 		BE136BA7199BDC69007B5569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE136BA5199BDC69007B5569 /* InfoPlist.strings */; };
 		BE136BA9199BDC69007B5569 /* UITableViewControllerChallengeSolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE136BA8199BDC69007B5569 /* UITableViewControllerChallengeSolTests.m */; };
+		BE136BB4199BE382007B5569 /* MAKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE136BB3199BE382007B5569 /* MAKTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		BE136B8C199BDC68007B5569 /* MAKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAKAppDelegate.h; sourceTree = "<group>"; };
 		BE136B8D199BDC68007B5569 /* MAKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAKAppDelegate.m; sourceTree = "<group>"; };
 		BE136B90199BDC69007B5569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE136B92199BDC69007B5569 /* MAKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAKViewController.h; sourceTree = "<group>"; };
-		BE136B93199BDC69007B5569 /* MAKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAKViewController.m; sourceTree = "<group>"; };
 		BE136B95199BDC69007B5569 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE136B9B199BDC69007B5569 /* UITableViewControllerChallengeSolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE136B9C199BDC69007B5569 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE136BA4199BDC69007B5569 /* UITableViewControllerChallengeSolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolTests-Info.plist"; sourceTree = "<group>"; };
 		BE136BA6199BDC69007B5569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE136BA8199BDC69007B5569 /* UITableViewControllerChallengeSolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolTests.m; sourceTree = "<group>"; };
+		BE136BB2199BE382007B5569 /* MAKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKTableViewController.h; sourceTree = "<group>"; };
+		BE136BB3199BE382007B5569 /* MAKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				BE136B8C199BDC68007B5569 /* MAKAppDelegate.h */,
 				BE136B8D199BDC68007B5569 /* MAKAppDelegate.m */,
 				BE136B8F199BDC69007B5569 /* Main.storyboard */,
-				BE136B92199BDC69007B5569 /* MAKViewController.h */,
-				BE136B93199BDC69007B5569 /* MAKViewController.m */,
+				BE136BB2199BE382007B5569 /* MAKTableViewController.h */,
+				BE136BB3199BE382007B5569 /* MAKTableViewController.m */,
 				BE136B95199BDC69007B5569 /* Images.xcassets */,
 				BE136B84199BDC68007B5569 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE136BB4199BE382007B5569 /* MAKTableViewController.m in Sources */,
 				BE136B8E199BDC68007B5569 /* MAKAppDelegate.m in Sources */,
 				BE136B8A199BDC68007B5569 /* main.m in Sources */,
-				BE136B94199BDC69007B5569 /* MAKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +457,7 @@
 				BE136BAE199BDC69007B5569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE136BAF199BDC69007B5569 /* Build configuration list for PBXNativeTarget "UITableViewControllerChallengeSolTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				BE136BB1199BDC69007B5569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

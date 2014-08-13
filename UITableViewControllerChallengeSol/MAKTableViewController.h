@@ -1,5 +1,5 @@
 //
-//  MAKViewController.h
+//  MAKTableViewController.h
 //  UITableViewControllerChallengeSol
 //
 //  Created by user23807 on 8/13/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MAKViewController : UIViewController
+@interface MAKTableViewController : UITableViewController
 
 @end
